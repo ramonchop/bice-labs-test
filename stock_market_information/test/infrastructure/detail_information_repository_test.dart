@@ -21,7 +21,7 @@ void main() {
       getIt.registerSingleton<Dio>(Dio());
       getIt.registerSingleton<IDetailInformation>(DetailInformationRepository(
         client: getIt<Dio>(),
-        url: 'http://34.95.229.39:8181/indicators',
+        url: 'https://steam-glass-352620.rj.r.appspot.com/indicators',
       ));
     });
     test('fetch', () async {
